@@ -1,0 +1,79 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(166, 145, 145) , rgb(35, 159, 221));
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    border-bottom: 2px black solid;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    margin: 0 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  
+  @media only screen and (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      justify-content: center;
+      height: 100vh;
+    }
+  
+    ul {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+  
+    li {
+      margin: 10px 0;
+    }
+  }
+  .AppButton{
+    float:right;
+    margin-right: 10px;
+    margin-top: 15px;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+    height: 40px;
+    padding-top: 4px;
+    font-family: 'Play', sans-serif;
+  }
+  .AppButton:hover{
+    background-color: rgb(20, 193, 78);
+    text-decoration:none;
+    color: rgb(255, 0, 0);
+  }
+  .left{
+    position: absolute;
+    right: 5px;
+  }
+  .adc:hover{
+    background-color: aqua;
+  }
